@@ -1,0 +1,33 @@
+# robots.txt for zeyaocn.com
+
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /services.html
+Allow: /culture.html
+Allow: /news.html
+Allow: /contact.html
+Allow: /privacy.html
+Allow: /terms.html
+
+# Sitemap location
+Sitemap: https://zeyaocn.com/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1
+
+# Disallow admin or private directories
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /api/
+
+# Allow search engines to crawl CSS and JS
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+# Block common non-essential files
+Disallow: /*.php$
+Disallow: /*.asp$
+Disallow: /*.cgi$
